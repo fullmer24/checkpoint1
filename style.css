@@ -1,0 +1,42 @@
+.hero-img {
+    background-image: url(https://images.unsplash.com/photo-1570727624862-3008fe67a6be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.burns {
+    height: 24vh;
+    width: 16vh;
+}
+
+/* .card-large {
+    width: 100%;
+    height: 90%;
+}
+
+.card-small {
+    width: 75%;
+    height: 75%;
+} */
+
+.transform {
+    transform: scale(1.1);
+}
+
+.transform-2 {
+    transform: scale(1.2);
+    width: 30vw;
+}
+
+@media (max-width: 768px) {
+    .transform-2 {
+        transform: none;
+        width: fit-content;
+    }
+}
+
+
+.title-font {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
